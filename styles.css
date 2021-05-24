@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  font-family: Corbel;
+  font-size: 35px;
+  padding: 20px;
+  color: azure;
+}
+
+a:hover {
+  color: #F5F5DC;
+  transition: 0.5s;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #1a1a1a;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.main-content2 {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: Corbel;
+  font-size: 60px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-family: Corbel;
+  font-size: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/*# sourceMappingURL=styles.css.map */
